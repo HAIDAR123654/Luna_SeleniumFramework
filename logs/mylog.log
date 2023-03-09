@@ -1,93 +1,45 @@
-[INFO ] 2023-03-07 23:25:04.387 [main] SeleniumFramework - url opend
-[INFO ] 2023-03-07 23:25:04.511 [main] SeleniumFramework - window maximized
-[INFO ] 2023-03-07 23:25:04.534 [main] SeleniumFramework - Test Case search product started....
-[INFO ] 2023-03-07 23:25:05.758 [main] SeleniumFramework - Clicked On signIn button
-[INFO ] 2023-03-07 23:25:05.958 [main] SeleniumFramework - entered email
-[INFO ] 2023-03-07 23:25:06.084 [main] SeleniumFramework - entered password
-[INFO ] 2023-03-07 23:25:07.836 [main] SeleniumFramework - Clicked on signIn Button
-[INFO ] 2023-03-07 23:25:10.731 [main] SeleniumFramework - searched product test cae is failed
-[INFO ] 2023-03-07 23:27:37.392 [main] SeleniumFramework - url opend
-[INFO ] 2023-03-07 23:27:37.536 [main] SeleniumFramework - window maximized
-[INFO ] 2023-03-07 23:27:37.565 [main] SeleniumFramework - Test Case search product started....
-[INFO ] 2023-03-07 23:27:38.903 [main] SeleniumFramework - Clicked On signIn button
-[INFO ] 2023-03-07 23:27:39.102 [main] SeleniumFramework - entered email
-[INFO ] 2023-03-07 23:27:39.252 [main] SeleniumFramework - entered password
-[INFO ] 2023-03-07 23:27:41.163 [main] SeleniumFramework - Clicked on signIn Button
-[INFO ] 2023-03-07 23:27:43.327 [main] SeleniumFramework - searched product test cae is passed
-[INFO ] 2023-03-07 23:27:43.377 [main] SeleniumFramework - clicked on log out drop down
-[INFO ] 2023-03-07 23:27:45.476 [main] SeleniumFramework - Clicked on log out element
-[INFO ] 2023-03-08 17:04:49.211 [main] SeleniumFramework - url opend
-[INFO ] 2023-03-08 17:04:49.351 [main] SeleniumFramework - window maximized
-[INFO ] 2023-03-08 17:04:49.369 [main] SeleniumFramework - Test Case search product started....
-[INFO ] 2023-03-08 17:04:50.574 [main] SeleniumFramework - Clicked On signIn button
-[INFO ] 2023-03-08 17:04:50.796 [main] SeleniumFramework - entered email
-[INFO ] 2023-03-08 17:04:50.895 [main] SeleniumFramework - entered password
-[INFO ] 2023-03-08 17:04:52.612 [main] SeleniumFramework - Clicked on signIn Button
-[INFO ] 2023-03-08 17:14:57.304 [main] SeleniumFramework - url opend
-[INFO ] 2023-03-08 17:14:57.434 [main] SeleniumFramework - window maximized
-[INFO ] 2023-03-08 17:14:57.447 [main] SeleniumFramework - Test Case search product started....
-[INFO ] 2023-03-08 17:14:58.917 [main] SeleniumFramework - Clicked On signIn button
-[INFO ] 2023-03-08 17:14:59.144 [main] SeleniumFramework - entered email
-[INFO ] 2023-03-08 17:14:59.274 [main] SeleniumFramework - entered password
-[INFO ] 2023-03-08 17:15:01.094 [main] SeleniumFramework - Clicked on signIn Button
-[INFO ] 2023-03-08 17:18:52.052 [main] SeleniumFramework - url opend
-[INFO ] 2023-03-08 17:18:52.186 [main] SeleniumFramework - window maximized
-[INFO ] 2023-03-08 17:18:52.197 [main] SeleniumFramework - Test Case search product started....
-[INFO ] 2023-03-08 17:18:53.425 [main] SeleniumFramework - Clicked On signIn button
-[INFO ] 2023-03-08 17:18:53.676 [main] SeleniumFramework - entered email
-[INFO ] 2023-03-08 17:18:53.770 [main] SeleniumFramework - entered password
-[INFO ] 2023-03-08 17:18:55.485 [main] SeleniumFramework - Clicked on signIn Button
-[INFO ] 2023-03-08 17:19:35.007 [main] SeleniumFramework - url opend
-[INFO ] 2023-03-08 17:19:35.135 [main] SeleniumFramework - window maximized
-[INFO ] 2023-03-08 17:19:35.153 [main] SeleniumFramework - Test Case search product started....
-[INFO ] 2023-03-08 17:19:36.370 [main] SeleniumFramework - Clicked On signIn button
-[INFO ] 2023-03-08 17:19:36.556 [main] SeleniumFramework - entered email
-[INFO ] 2023-03-08 17:19:36.647 [main] SeleniumFramework - entered password
-[INFO ] 2023-03-08 17:19:38.299 [main] SeleniumFramework - Clicked on signIn Button
-[INFO ] 2023-03-08 17:20:38.783 [main] SeleniumFramework - url opend
-[INFO ] 2023-03-08 17:20:38.908 [main] SeleniumFramework - window maximized
-[INFO ] 2023-03-08 17:20:38.927 [main] SeleniumFramework - Test Case search product started....
-[INFO ] 2023-03-08 17:20:40.221 [main] SeleniumFramework - Clicked On signIn button
-[INFO ] 2023-03-08 17:20:40.433 [main] SeleniumFramework - entered email
-[INFO ] 2023-03-08 17:20:40.542 [main] SeleniumFramework - entered password
-[INFO ] 2023-03-08 17:20:42.221 [main] SeleniumFramework - Clicked on signIn Button
-[INFO ] 2023-03-08 17:30:58.779 [main] SeleniumFramework - url opend
-[INFO ] 2023-03-08 17:30:58.914 [main] SeleniumFramework - window maximized
-[INFO ] 2023-03-08 17:30:58.930 [main] SeleniumFramework - Test Case search product started....
-[INFO ] 2023-03-08 17:31:00.249 [main] SeleniumFramework - Clicked On signIn button
-[INFO ] 2023-03-08 17:31:00.495 [main] SeleniumFramework - entered email
-[INFO ] 2023-03-08 17:31:00.621 [main] SeleniumFramework - entered password
-[INFO ] 2023-03-08 17:31:02.353 [main] SeleniumFramework - Clicked on signIn Button
-[INFO ] 2023-03-08 17:46:42.441 [main] SeleniumFramework - url opend
-[INFO ] 2023-03-08 17:46:42.582 [main] SeleniumFramework - window maximized
-[INFO ] 2023-03-08 17:46:42.619 [main] SeleniumFramework - Test Case search product started....
-[INFO ] 2023-03-08 17:46:44.101 [main] SeleniumFramework - Clicked On signIn button
-[INFO ] 2023-03-08 17:46:44.232 [main] SeleniumFramework - entered email
-[INFO ] 2023-03-08 17:46:44.464 [main] SeleniumFramework - entered password
-[INFO ] 2023-03-08 17:46:46.324 [main] SeleniumFramework - Clicked on signIn Button
-[INFO ] 2023-03-08 17:47:27.730 [main] SeleniumFramework - url opend
-[INFO ] 2023-03-08 17:47:27.855 [main] SeleniumFramework - window maximized
-[INFO ] 2023-03-08 17:47:27.880 [main] SeleniumFramework - Test Case search product started....
-[INFO ] 2023-03-08 17:47:29.483 [main] SeleniumFramework - Clicked On signIn button
-[INFO ] 2023-03-08 17:47:29.784 [main] SeleniumFramework - entered email
-[INFO ] 2023-03-08 17:47:29.877 [main] SeleniumFramework - entered password
-[INFO ] 2023-03-08 17:47:31.913 [main] SeleniumFramework - Clicked on signIn Button
-[INFO ] 2023-03-08 17:54:47.696 [main] SeleniumFramework - url opend
-[INFO ] 2023-03-08 17:54:47.824 [main] SeleniumFramework - window maximized
-[INFO ] 2023-03-08 17:54:47.843 [main] SeleniumFramework - Test Case search product started....
-[INFO ] 2023-03-08 17:54:49.197 [main] SeleniumFramework - Clicked On signIn button
-[INFO ] 2023-03-08 17:54:49.435 [main] SeleniumFramework - entered email
-[INFO ] 2023-03-08 17:54:49.541 [main] SeleniumFramework - entered password
-[INFO ] 2023-03-08 17:54:51.738 [main] SeleniumFramework - Clicked on signIn Button
-[INFO ] 2023-03-08 17:54:58.674 [main] SeleniumFramework - product added to cart
-[INFO ] 2023-03-08 17:58:53.591 [main] SeleniumFramework - url opend
-[INFO ] 2023-03-08 17:58:53.714 [main] SeleniumFramework - window maximized
-[INFO ] 2023-03-08 17:58:53.728 [main] SeleniumFramework - Test Case search product started....
-[INFO ] 2023-03-08 17:58:55.066 [main] SeleniumFramework - Clicked On signIn button
-[INFO ] 2023-03-08 17:58:55.284 [main] SeleniumFramework - entered email
-[INFO ] 2023-03-08 17:58:55.449 [main] SeleniumFramework - entered password
-[INFO ] 2023-03-08 17:58:57.203 [main] SeleniumFramework - Clicked on signIn Button
-[INFO ] 2023-03-08 17:59:07.371 [main] SeleniumFramework - product added to cart
-[INFO ] 2023-03-08 18:29:15.846 [main] SeleniumFramework - url opend
-[INFO ] 2023-03-08 18:29:15.978 [main] SeleniumFramework - window maximized
-[INFO ] 2023-03-08 18:29:15.995 [main] SeleniumFramework - Test Case search product started....
+[INFO ] 2023-03-09 18:11:15.590 [main] SeleniumFramework - url opend
+[INFO ] 2023-03-09 18:11:15.713 [main] SeleniumFramework - window maximized
+[INFO ] 2023-03-09 18:11:15.729 [main] SeleniumFramework - Test Case search product started....
+[INFO ] 2023-03-09 18:11:17.167 [main] SeleniumFramework - Clicked On signIn button
+[INFO ] 2023-03-09 18:11:17.352 [main] SeleniumFramework - entered email
+[INFO ] 2023-03-09 18:11:17.446 [main] SeleniumFramework - entered password
+[INFO ] 2023-03-09 18:11:19.367 [main] SeleniumFramework - Clicked on signIn Button
+[INFO ] 2023-03-09 18:11:29.950 [main] SeleniumFramework - product added to cart
+[INFO ] 2023-03-09 18:15:30.213 [main] SeleniumFramework - url opend
+[INFO ] 2023-03-09 18:15:30.351 [main] SeleniumFramework - window maximized
+[INFO ] 2023-03-09 18:15:30.366 [main] SeleniumFramework - Test Case search product started....
+[INFO ] 2023-03-09 18:15:31.769 [main] SeleniumFramework - Clicked On signIn button
+[INFO ] 2023-03-09 18:15:31.973 [main] SeleniumFramework - entered email
+[INFO ] 2023-03-09 18:15:32.067 [main] SeleniumFramework - entered password
+[INFO ] 2023-03-09 18:15:33.865 [main] SeleniumFramework - Clicked on signIn Button
+[INFO ] 2023-03-09 18:15:41.103 [main] SeleniumFramework - product added to cart
+[INFO ] 2023-03-09 18:15:47.198 [main] SeleniumFramework - driver got switch to check out window..
+[INFO ] 2023-03-09 18:15:51.683 [main] SeleniumFramework - Now shipping address details will be filled..
+[INFO ] 2023-03-09 18:15:57.010 [main] SeleniumFramework - Now shipping address details filling end
+[INFO ] 2023-03-09 18:15:57.080 [main] SeleniumFramework - click on next button..
+[INFO ] 2023-03-09 18:19:46.505 [main] SeleniumFramework - url opend
+[INFO ] 2023-03-09 18:19:46.640 [main] SeleniumFramework - window maximized
+[INFO ] 2023-03-09 18:19:46.655 [main] SeleniumFramework - Test Case search product started....
+[INFO ] 2023-03-09 18:19:47.907 [main] SeleniumFramework - Clicked On signIn button
+[INFO ] 2023-03-09 18:19:48.105 [main] SeleniumFramework - entered email
+[INFO ] 2023-03-09 18:19:48.200 [main] SeleniumFramework - entered password
+[INFO ] 2023-03-09 18:19:49.897 [main] SeleniumFramework - Clicked on signIn Button
+[INFO ] 2023-03-09 18:19:55.908 [main] SeleniumFramework - product added to cart
+[INFO ] 2023-03-09 18:20:01.984 [main] SeleniumFramework - driver got switch to check out window..
+[INFO ] 2023-03-09 18:20:06.826 [main] SeleniumFramework - Now shipping address details will be filled..
+[INFO ] 2023-03-09 18:20:11.923 [main] SeleniumFramework - Now shipping address details filling end
+[INFO ] 2023-03-09 18:20:11.985 [main] SeleniumFramework - click on next button..
+[INFO ] 2023-03-09 18:23:39.951 [main] SeleniumFramework - url opend
+[INFO ] 2023-03-09 18:23:40.084 [main] SeleniumFramework - window maximized
+[INFO ] 2023-03-09 18:23:40.099 [main] SeleniumFramework - Test Case search product started....
+[INFO ] 2023-03-09 18:23:41.371 [main] SeleniumFramework - Clicked On signIn button
+[INFO ] 2023-03-09 18:23:41.539 [main] SeleniumFramework - entered email
+[INFO ] 2023-03-09 18:23:41.624 [main] SeleniumFramework - entered password
+[INFO ] 2023-03-09 18:23:43.909 [main] SeleniumFramework - Clicked on signIn Button
+[INFO ] 2023-03-09 18:23:50.782 [main] SeleniumFramework - product added to cart
+[INFO ] 2023-03-09 18:23:56.885 [main] SeleniumFramework - driver got switch to check out window..
+[INFO ] 2023-03-09 18:24:01.556 [main] SeleniumFramework - Now shipping address details will be filled..
+[INFO ] 2023-03-09 18:24:07.686 [main] SeleniumFramework - Now shipping address details filling end
+[INFO ] 2023-03-09 18:24:07.767 [main] SeleniumFramework - click on next button..
+[INFO ] 2023-03-09 18:24:16.530 [main] SeleniumFramework - order test passed

@@ -57,4 +57,16 @@ public class ProductDetailsPage {
 		checkOut.click();
 		return new ShippingAddressPage(rdriver);
 	}
+	
+    public void switchToCheckOutWindow(WebDriver rdriver) {
+    	String mainWindowHandle = rdriver.getWindowHandle();
+		for (String handle : rdriver.getWindowHandles()) {
+		    if (!handle.equals(mainWindowHandle)) {
+		        rdriver.switchTo().window(handle);
+		        checkOut.click();
+		        rdriver.close();
+		        rdriver.switchTo().window(mainWindowHandle);
+		    }
+		}
+    }
 }
