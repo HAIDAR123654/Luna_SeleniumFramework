@@ -9,7 +9,7 @@
       <class name="com.luna.testcases.OrderProductTest">
         <methods>
           <include name="setup"/>
-          <include name="verifySearchProduct"/>
+          <include name="verifyAddToWishList"/>
           <include name="tearDown"/>
         </methods>
       </class> <!-- com.luna.testcases.OrderProductTest -->

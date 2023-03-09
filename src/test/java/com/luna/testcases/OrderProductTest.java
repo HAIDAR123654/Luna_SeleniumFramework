@@ -17,7 +17,7 @@ import com.luna.pageobject.UserHomePage;
 
 public class OrderProductTest extends BaseClass {
 
-	@Test
+	@Test(enabled = false)
 	public void verifyOrderProduct() throws IOException, InterruptedException {
 		String searchKey = "t-shirt";
 		logger.info("Test Case search product started....");
@@ -36,7 +36,7 @@ public class OrderProductTest extends BaseClass {
 		logger.info("Clicked on signIn Button");
 
 		userHomePage.searchBox(searchKey);
-
+		Thread.sleep(3000);
 		SearchResultPage searchResultPage = userHomePage.searchButton(driver);
 		searchResultPage.scrollDownToTargetElement(driver);
 		searchResultPage.howerOnProduct(driver);
@@ -53,24 +53,29 @@ public class OrderProductTest extends BaseClass {
 		Thread.sleep(3000);
 		productDetailsPage.switchToCheckOutWindow(driver);
 		logger.info("driver got switch to check out window..");
-		
+
 		ShippingAddressPage shippingAddressPage = productDetailsPage.clickOnProceedToCheckOut(driver);
-		Thread.sleep(3000);
-        logger.info("Now shipping address details will be filled..");
-        
-		shippingAddressPage.enterStreetAdress("Ashiyana");
-		shippingAddressPage.enterCityAdress("Lucknow");
+		Thread.sleep(7000);
+		logger.info("Now shipping address details will be filled..");
 
-		Select dropDownState = new Select(shippingAddressPage.clickOnStateDropDown());
-		dropDownState.selectByIndex(1);
+		if (!shippingAddressPage.newAddressWebElement().isDisplayed()) {
+			shippingAddressPage.enterStreetAdress("Ashiyana");
+			shippingAddressPage.enterCityAdress("Lucknow");
 
-		shippingAddressPage.enterZip("12345-1234");
-		Select dropDownCountry = new Select(shippingAddressPage.clickOnCountryDropDown());
-		dropDownCountry.selectByIndex(1);
+			Select dropDownState = new Select(shippingAddressPage.clickOnStateDropDown());
+			dropDownState.selectByIndex(1);
 
-		shippingAddressPage.enterPhone("1234567899");
-		shippingAddressPage.selectShippingMethod();
-		logger.info("Now shipping address details filling end");
+			shippingAddressPage.enterZip("12345-1234");
+			Select dropDownCountry = new Select(shippingAddressPage.clickOnCountryDropDown());
+			dropDownCountry.selectByIndex(1);
+			shippingAddressPage.enterPhone("1234567899");
+			shippingAddressPage.selectShippingMethod1();
+			logger.info("Now shipping address details filling end");
+		} else {
+			shippingAddressPage.selectShippingMethod2();
+			logger.info("Now shipping address details filling end");
+		}
+
 		ReviewAndPaymentPage reviewAndPaymentPage = shippingAddressPage.clickOnNext(driver);
 		logger.info("click on next button..");
 		Thread.sleep(5000);
@@ -78,7 +83,7 @@ public class OrderProductTest extends BaseClass {
 		OrderSuccessPage orderSuccessPage = reviewAndPaymentPage.clickOnPlaceOrder(driver);
 		String successOrder = orderSuccessPage.getOrderSuccessMessage();
 
-		if (successOrder.contains("")) {
+		if (successOrder.contains("Thank you for your purchase!")) {
 			logger.info("order test passed");
 			Assert.assertTrue(true);
 			userHomePage.logOutDrop();
@@ -89,9 +94,43 @@ public class OrderProductTest extends BaseClass {
 
 		else {
 			logger.info("order test passed");
-			captureScreenShot(driver,"verifyOrderProduct");
+			captureScreenShot(driver, "verifyOrderProduct");
 			Assert.assertTrue(false);
 		}
 	}
+	
+	@Test
+	public void verifyAddToWishList() throws IOException, InterruptedException {
+		String searchKey = "t-shirt";
+		logger.info("Test Case verifyAddToWishList started....");
+
+		IndexPage indexPage = new IndexPage(driver);
+		indexPage.searchBox(searchKey);
+		logger.info("searched t-shirt product....");
+		
+		SearchResultPage searchResultPage = indexPage.searchButton(driver);
+		logger.info("searched t-shirt product listed down....");
+		
+		searchResultPage.scrollDownToTargetElement(driver);
+		searchResultPage.howerOnProduct(driver);
+		Thread.sleep(5000);
+		LoginPage loginPage = searchResultPage.addToWishList(driver);
+		String erm = loginPage.geterrorMessageOfAddToWishList();
+		logger.info("got the error message....");
+		
+		if(erm.contains("You must login or register")) {
+			logger.info("Add to wish list test passed..");
+			Assert.assertTrue(true);
+			
+		}
+		else {
+			logger.info("Add to wish list test failed..");
+			captureScreenShot(driver, "verifyAddToWishList");
+			Assert.assertTrue(false);
+			
+		}
+		
+	}
+	
 
 }

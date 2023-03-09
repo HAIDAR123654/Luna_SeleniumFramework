@@ -17,9 +17,23 @@ public class IndexPage {
 	@FindBy(linkText = "Sign In")
 	WebElement signIn;
 	
+	@FindBy(id = "search")
+	WebElement searchBox;
+	
+	@FindBy(css = "button[title = 'Search']")
+	WebElement searchButton;
+	
 	public LoginPage ClickOnSignIn(WebDriver rdriver) {
 		signIn.click();
 		return new LoginPage(rdriver);
 	}
-    
+	
+	public void searchBox(String productName) {
+		searchBox.sendKeys(productName);
+	}
+	
+	public SearchResultPage searchButton(WebDriver rdriver) {
+		searchButton.click();
+		return new SearchResultPage(rdriver);
+	}
 }

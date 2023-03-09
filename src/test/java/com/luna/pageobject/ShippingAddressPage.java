@@ -30,13 +30,19 @@ public class ShippingAddressPage {
 	WebElement telephone;
 	
 	@FindBy(css = "input[name='ko_unique_3']")
-	WebElement shippingMethod;
+	WebElement shippingMethod1;
+	
+	@FindBy(css = "input[name='ko_unique_1']")
+	WebElement shippingMethod2;
 	
 	@FindBy(xpath = "//span[text()='Next']")
 	WebElement next;
 	
 	@FindBy(css = "input[name='postcode']")
 	WebElement zipCode;
+	
+	@FindBy(xpath = "//span[contains(text(),'New Address')]")
+	WebElement newAddress;
 	
 	public void enterStreetAdress(String streetAddress) {
 		street.sendKeys(streetAddress);
@@ -57,8 +63,12 @@ public class ShippingAddressPage {
 		telephone.sendKeys(tele);
 	}
 	
-	public void selectShippingMethod() {
-		shippingMethod.click();
+	public void selectShippingMethod1() {
+		shippingMethod1.click();
+	}
+	
+	public void selectShippingMethod2() {
+		shippingMethod2.click();
 	}
 	
 	public ReviewAndPaymentPage clickOnNext(WebDriver rdriver) {
@@ -68,5 +78,9 @@ public class ShippingAddressPage {
 	
 	public void enterZip(String code) {
 		zipCode.sendKeys(code);
+	}
+	
+	public WebElement newAddressWebElement() {
+		return newAddress;
 	}
 }

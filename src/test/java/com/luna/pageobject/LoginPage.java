@@ -29,6 +29,12 @@ public class LoginPage {
 	@FindBy(css = "a[class='action create primary'] span")
 	WebElement createAnAccountButton;
 	
+	@FindBy(xpath = "//div[text()='You must login or register to add items to your wishlist.']")
+	WebElement errorMessageOfAddToWishList;
+	
+	public String geterrorMessageOfAddToWishList() {
+		return errorMessageOfAddToWishList.getText();
+	}
 	public void enterEmail(String emailAdd) {
 		email.sendKeys(emailAdd);
 	}

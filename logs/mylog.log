@@ -1,45 +1,20 @@
-[INFO ] 2023-03-09 18:11:15.590 [main] SeleniumFramework - url opend
-[INFO ] 2023-03-09 18:11:15.713 [main] SeleniumFramework - window maximized
-[INFO ] 2023-03-09 18:11:15.729 [main] SeleniumFramework - Test Case search product started....
-[INFO ] 2023-03-09 18:11:17.167 [main] SeleniumFramework - Clicked On signIn button
-[INFO ] 2023-03-09 18:11:17.352 [main] SeleniumFramework - entered email
-[INFO ] 2023-03-09 18:11:17.446 [main] SeleniumFramework - entered password
-[INFO ] 2023-03-09 18:11:19.367 [main] SeleniumFramework - Clicked on signIn Button
-[INFO ] 2023-03-09 18:11:29.950 [main] SeleniumFramework - product added to cart
-[INFO ] 2023-03-09 18:15:30.213 [main] SeleniumFramework - url opend
-[INFO ] 2023-03-09 18:15:30.351 [main] SeleniumFramework - window maximized
-[INFO ] 2023-03-09 18:15:30.366 [main] SeleniumFramework - Test Case search product started....
-[INFO ] 2023-03-09 18:15:31.769 [main] SeleniumFramework - Clicked On signIn button
-[INFO ] 2023-03-09 18:15:31.973 [main] SeleniumFramework - entered email
-[INFO ] 2023-03-09 18:15:32.067 [main] SeleniumFramework - entered password
-[INFO ] 2023-03-09 18:15:33.865 [main] SeleniumFramework - Clicked on signIn Button
-[INFO ] 2023-03-09 18:15:41.103 [main] SeleniumFramework - product added to cart
-[INFO ] 2023-03-09 18:15:47.198 [main] SeleniumFramework - driver got switch to check out window..
-[INFO ] 2023-03-09 18:15:51.683 [main] SeleniumFramework - Now shipping address details will be filled..
-[INFO ] 2023-03-09 18:15:57.010 [main] SeleniumFramework - Now shipping address details filling end
-[INFO ] 2023-03-09 18:15:57.080 [main] SeleniumFramework - click on next button..
-[INFO ] 2023-03-09 18:19:46.505 [main] SeleniumFramework - url opend
-[INFO ] 2023-03-09 18:19:46.640 [main] SeleniumFramework - window maximized
-[INFO ] 2023-03-09 18:19:46.655 [main] SeleniumFramework - Test Case search product started....
-[INFO ] 2023-03-09 18:19:47.907 [main] SeleniumFramework - Clicked On signIn button
-[INFO ] 2023-03-09 18:19:48.105 [main] SeleniumFramework - entered email
-[INFO ] 2023-03-09 18:19:48.200 [main] SeleniumFramework - entered password
-[INFO ] 2023-03-09 18:19:49.897 [main] SeleniumFramework - Clicked on signIn Button
-[INFO ] 2023-03-09 18:19:55.908 [main] SeleniumFramework - product added to cart
-[INFO ] 2023-03-09 18:20:01.984 [main] SeleniumFramework - driver got switch to check out window..
-[INFO ] 2023-03-09 18:20:06.826 [main] SeleniumFramework - Now shipping address details will be filled..
-[INFO ] 2023-03-09 18:20:11.923 [main] SeleniumFramework - Now shipping address details filling end
-[INFO ] 2023-03-09 18:20:11.985 [main] SeleniumFramework - click on next button..
-[INFO ] 2023-03-09 18:23:39.951 [main] SeleniumFramework - url opend
-[INFO ] 2023-03-09 18:23:40.084 [main] SeleniumFramework - window maximized
-[INFO ] 2023-03-09 18:23:40.099 [main] SeleniumFramework - Test Case search product started....
-[INFO ] 2023-03-09 18:23:41.371 [main] SeleniumFramework - Clicked On signIn button
-[INFO ] 2023-03-09 18:23:41.539 [main] SeleniumFramework - entered email
-[INFO ] 2023-03-09 18:23:41.624 [main] SeleniumFramework - entered password
-[INFO ] 2023-03-09 18:23:43.909 [main] SeleniumFramework - Clicked on signIn Button
-[INFO ] 2023-03-09 18:23:50.782 [main] SeleniumFramework - product added to cart
-[INFO ] 2023-03-09 18:23:56.885 [main] SeleniumFramework - driver got switch to check out window..
-[INFO ] 2023-03-09 18:24:01.556 [main] SeleniumFramework - Now shipping address details will be filled..
-[INFO ] 2023-03-09 18:24:07.686 [main] SeleniumFramework - Now shipping address details filling end
-[INFO ] 2023-03-09 18:24:07.767 [main] SeleniumFramework - click on next button..
-[INFO ] 2023-03-09 18:24:16.530 [main] SeleniumFramework - order test passed
+[INFO ] 2023-03-10 00:06:34.897 [main] SeleniumFramework - url opend
+[INFO ] 2023-03-10 00:06:35.029 [main] SeleniumFramework - window maximized
+[INFO ] 2023-03-10 00:06:35.053 [main] SeleniumFramework - Test Case verifyAddToWishList started....
+[INFO ] 2023-03-10 00:06:35.244 [main] SeleniumFramework - searched t-shirt product....
+[INFO ] 2023-03-10 00:06:37.241 [main] SeleniumFramework - searched t-shirt product listed down....
+[INFO ] 2023-03-10 00:09:15.003 [main] SeleniumFramework - url opend
+[INFO ] 2023-03-10 00:09:15.149 [main] SeleniumFramework - window maximized
+[INFO ] 2023-03-10 00:09:15.172 [main] SeleniumFramework - Test Case verifyAddToWishList started....
+[INFO ] 2023-03-10 00:09:15.486 [main] SeleniumFramework - searched t-shirt product....
+[INFO ] 2023-03-10 00:09:17.359 [main] SeleniumFramework - searched t-shirt product listed down....
+[INFO ] 2023-03-10 00:14:50.397 [main] SeleniumFramework - url opend
+[INFO ] 2023-03-10 00:14:50.526 [main] SeleniumFramework - window maximized
+[INFO ] 2023-03-10 00:14:50.551 [main] SeleniumFramework - Test Case verifyAddToWishList started....
+[INFO ] 2023-03-10 00:14:50.749 [main] SeleniumFramework - searched t-shirt product....
+[INFO ] 2023-03-10 00:14:52.754 [main] SeleniumFramework - searched t-shirt product listed down....
+[INFO ] 2023-03-10 00:16:04.406 [main] SeleniumFramework - url opend
+[INFO ] 2023-03-10 00:16:04.537 [main] SeleniumFramework - window maximized
+[INFO ] 2023-03-10 00:16:04.564 [main] SeleniumFramework - Test Case verifyAddToWishList started....
+[INFO ] 2023-03-10 00:16:04.828 [main] SeleniumFramework - searched t-shirt product....
+[INFO ] 2023-03-10 00:16:06.981 [main] SeleniumFramework - searched t-shirt product listed down....
