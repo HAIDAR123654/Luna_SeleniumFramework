@@ -81,6 +81,10 @@ public class OrderProductTest extends BaseClass {
 		if (successOrder.contains("")) {
 			logger.info("order test passed");
 			Assert.assertTrue(true);
+			userHomePage.logOutDrop();
+			logger.info("clicked on log out drop down");
+			userHomePage.logOut();
+			logger.info("Clicked on log out element");
 		}
 
 		else {
