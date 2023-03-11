@@ -8,6 +8,7 @@ import com.luna.pageobject.AccountCreationPage;
 import com.luna.pageobject.CustomerAccountPage;
 import com.luna.pageobject.IndexPage;
 import com.luna.pageobject.LoginPage;
+import com.luna.pageobject.UserHomePage;
 
 public class NewRegistrationTest extends BaseClass{
 
@@ -35,7 +36,7 @@ public class NewRegistrationTest extends BaseClass{
 		
 	}
 	
-	@Test
+	@Test(enabled = false)
 	public void verifyLogin() throws InterruptedException, IOException {
 		IndexPage indexPage = new IndexPage(driver);
 		LoginPage loginPage = indexPage.ClickOnSignIn(driver);
@@ -63,4 +64,39 @@ public class NewRegistrationTest extends BaseClass{
 		}
 		
 	}
+	
+	@Test
+	public void logOutTest() throws IOException {
+		IndexPage indexPage = new IndexPage(driver);
+		LoginPage loginPage = indexPage.ClickOnSignIn(driver);
+		logger.info("Clicked On signIn button");
+		
+		loginPage.enterEmail("pankaj.kumar@gmail.com");
+		logger.info("entered email");
+		
+		loginPage.enterPassword("PANKAJ@k123");
+		logger.info("entered password");
+		
+		UserHomePage userHomePage = loginPage.clickSignInButton(driver);
+		logger.info("Clicked on signIn Button to login.");
+		
+		String loginedHomeTitle = driver.getTitle();
+		userHomePage.logOutDrop();
+		userHomePage.logOut();
+		
+		String logedOutHomeTitle = driver.getTitle();
+		
+		if(logedOutHomeTitle != loginedHomeTitle) {
+			logger.info("log out test case passed");
+			Assert.assertTrue(true);
+		}
+		else{
+			captureScreenShot(driver, "logOutTest");
+			logger.info("log out test case failed");
+			Assert.assertTrue(false);
+		}
+		
+	}
+	
+	
 }

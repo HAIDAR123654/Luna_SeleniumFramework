@@ -113,7 +113,6 @@ public class OrderProductTest extends BaseClass {
 		
 		searchResultPage.scrollDownToTargetElement(driver);
 		searchResultPage.howerOnProduct(driver);
-		Thread.sleep(5000);
 		LoginPage loginPage = searchResultPage.addToWishList(driver);
 		String erm = loginPage.geterrorMessageOfAddToWishList();
 		logger.info("got the error message....");

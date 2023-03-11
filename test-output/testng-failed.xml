@@ -6,13 +6,13 @@
   </listeners>
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="com.luna.testcases.OrderProductTest">
+      <class name="com.luna.testcases.NewRegistrationTest">
         <methods>
           <include name="setup"/>
-          <include name="verifyAddToWishList"/>
+          <include name="logOutTest"/>
           <include name="tearDown"/>
         </methods>
-      </class> <!-- com.luna.testcases.OrderProductTest -->
+      </class> <!-- com.luna.testcases.NewRegistrationTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

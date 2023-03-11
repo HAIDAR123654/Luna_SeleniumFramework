@@ -20,13 +20,13 @@ public class SearchResultPage {
 		PageFactory.initElements(rdriver, this);
 	}
 	
-	@FindBy(xpath = "//a[contains(text(),'Radiant Tee')]")
+	@FindBy(xpath = "//a[contains(text(),'Balboa Persistence Tee')]")
 	WebElement productName;
 	
 	@FindBy(xpath = "(//span[text()='Add to Cart'])[1]")
 	WebElement addToCart;
     
-	@FindBy(xpath = "(//span[text()='Add to Wish List'])[1]")
+	@FindBy(xpath = "//li[1]//div[1]//div[1]//div[4]//div[1]//div[2]//a[1]")
 	WebElement addToWishList;
 	
 	public void howerOnProduct(WebDriver rdriver) {
@@ -47,7 +47,7 @@ public class SearchResultPage {
 	}
 	
 	public LoginPage addToWishList(WebDriver rdriver) {
-		WebDriverWait wait = new WebDriverWait(rdriver, Duration.ofSeconds(5));
+		WebDriverWait wait = new WebDriverWait(rdriver, Duration.ofSeconds(10));
 		wait.until(ExpectedConditions.elementToBeClickable(addToWishList));
 		addToWishList.click();
 		return new LoginPage(rdriver);

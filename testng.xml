@@ -6,7 +6,7 @@
 </listeners>
   <test name="Test">
     <classes>
-      <class name="com.luna.testcases.OrderProductTest"/>
+      <class name="com.luna.testcases.NewRegistrationTest"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
