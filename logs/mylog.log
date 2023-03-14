@@ -1,7 +1,45 @@
-[INFO ] 2023-03-11 23:23:56.143 [main] SeleniumFramework - url opend
-[INFO ] 2023-03-11 23:23:56.330 [main] SeleniumFramework - window maximized
-[INFO ] 2023-03-11 23:23:57.740 [main] SeleniumFramework - Clicked On signIn button
-[INFO ] 2023-03-11 23:23:57.865 [main] SeleniumFramework - entered email
-[INFO ] 2023-03-11 23:23:58.070 [main] SeleniumFramework - entered password
-[INFO ] 2023-03-11 23:23:59.687 [main] SeleniumFramework - Clicked on signIn Button to login.
-[INFO ] 2023-03-11 23:24:01.349 [main] SeleniumFramework - log out test case passed
+[INFO ] 2023-03-14 23:01:43.493 [TestNG-test=Test-1] SeleniumFramework - url opend
+[INFO ] 2023-03-14 23:01:43.771 [TestNG-test=Test-1] SeleniumFramework - window maximized
+[INFO ] 2023-03-14 23:01:43.774 [TestNG-test=Test-2] SeleniumFramework - url opend
+[INFO ] 2023-03-14 23:01:44.082 [TestNG-test=Test-2] SeleniumFramework - window maximized
+[INFO ] 2023-03-14 23:01:45.888 [TestNG-test=Test-1] SeleniumFramework - Clicked On signIn button
+[INFO ] 2023-03-14 23:01:46.018 [TestNG-test=Test-1] SeleniumFramework - entered email
+[INFO ] 2023-03-14 23:04:58.703 [TestNG-test=Test-1] SeleniumFramework - url opend
+[INFO ] 2023-03-14 23:04:58.842 [TestNG-test=Test-2] SeleniumFramework - url opend
+[INFO ] 2023-03-14 23:04:59.091 [TestNG-test=Test-1] SeleniumFramework - window maximized
+[INFO ] 2023-03-14 23:04:59.149 [TestNG-test=Test-2] SeleniumFramework - window maximized
+[INFO ] 2023-03-14 23:05:01.918 [TestNG-test=Test-2] SeleniumFramework - Clicked On signIn button
+[INFO ] 2023-03-14 23:05:02.187 [TestNG-test=Test-2] SeleniumFramework - entered email
+[INFO ] 2023-03-14 23:06:56.542 [TestNG-test=Test-1] SeleniumFramework - url opend
+[INFO ] 2023-03-14 23:06:57.656 [TestNG-test=Test-2] SeleniumFramework - url opend
+[INFO ] 2023-03-14 23:06:57.884 [TestNG-test=Test-1] SeleniumFramework - window maximized
+[INFO ] 2023-03-14 23:06:58.032 [TestNG-test=Test-2] SeleniumFramework - window maximized
+[INFO ] 2023-03-14 23:06:59.468 [TestNG-test=Test-1] SeleniumFramework - Clicked On signIn button
+[INFO ] 2023-03-14 23:13:53.120 [TestNG-test=Test-1] SeleniumFramework - url opend
+[INFO ] 2023-03-14 23:13:54.329 [TestNG-test=Test-2] SeleniumFramework - url opend
+[INFO ] 2023-03-14 23:13:54.510 [TestNG-test=Test-1] SeleniumFramework - window maximized
+[INFO ] 2023-03-14 23:13:54.574 [TestNG-test=Test-2] SeleniumFramework - window maximized
+[INFO ] 2023-03-14 23:13:55.680 [TestNG-test=Test-1] SeleniumFramework - Clicked On signIn button
+[INFO ] 2023-03-14 23:15:55.839 [TestNG-test=Test-2] SeleniumFramework - url opend
+[INFO ] 2023-03-14 23:15:57.172 [TestNG-test=Test-1] SeleniumFramework - url opend
+[INFO ] 2023-03-14 23:15:57.326 [TestNG-test=Test-2] SeleniumFramework - window maximized
+[INFO ] 2023-03-14 23:15:57.364 [TestNG-test=Test-1] SeleniumFramework - window maximized
+[INFO ] 2023-03-14 23:15:58.694 [TestNG-test=Test-2] SeleniumFramework - Clicked On signIn button
+[INFO ] 2023-03-14 23:15:58.941 [TestNG-test=Test-2] SeleniumFramework - entered email
+[INFO ] 2023-03-14 23:15:59.062 [TestNG-test=Test-2] SeleniumFramework - entered password
+[INFO ] 2023-03-14 23:16:00.710 [TestNG-test=Test-2] SeleniumFramework - Clicked on signIn Button
+[INFO ] 2023-03-14 23:16:00.787 [TestNG-test=Test-2] SeleniumFramework - Verify Login - passed
+[INFO ] 2023-03-14 23:29:49.663 [TestNG-test=Test-2] SeleniumFramework - url opend
+[INFO ] 2023-03-14 23:29:49.803 [TestNG-test=Test-2] SeleniumFramework - window maximized
+[INFO ] 2023-03-14 23:29:51.162 [TestNG-test=Test-1] SeleniumFramework - url opend
+[INFO ] 2023-03-14 23:29:51.436 [TestNG-test=Test-1] SeleniumFramework - window maximized
+[INFO ] 2023-03-14 23:29:51.484 [TestNG-test=Test-2] SeleniumFramework - Clicked On signIn button
+[INFO ] 2023-03-14 23:29:51.709 [TestNG-test=Test-2] SeleniumFramework - entered email
+[INFO ] 2023-03-14 23:29:51.964 [TestNG-test=Test-2] SeleniumFramework - entered password
+[INFO ] 2023-03-14 23:29:52.917 [TestNG-test=Test-1] SeleniumFramework - Clicked On signIn button
+[INFO ] 2023-03-14 23:29:53.117 [TestNG-test=Test-1] SeleniumFramework - entered email
+[INFO ] 2023-03-14 23:29:53.278 [TestNG-test=Test-1] SeleniumFramework - entered password
+[INFO ] 2023-03-14 23:29:54.113 [TestNG-test=Test-2] SeleniumFramework - Clicked on signIn Button
+[INFO ] 2023-03-14 23:29:54.243 [TestNG-test=Test-2] SeleniumFramework - Verify Login - passed
+[INFO ] 2023-03-14 23:29:55.080 [TestNG-test=Test-1] SeleniumFramework - Clicked on signIn Button to login.
+[INFO ] 2023-03-14 23:29:57.016 [TestNG-test=Test-1] SeleniumFramework - log out test case passed

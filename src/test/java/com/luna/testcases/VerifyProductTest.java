@@ -3,6 +3,7 @@ package com.luna.testcases;
 import java.io.IOException;
 
 import org.junit.Assert;
+import org.openqa.selenium.WebDriver;
 import org.testng.annotations.Test;
 
 import com.luna.pageobject.IndexPage;
@@ -15,6 +16,7 @@ public class VerifyProductTest extends BaseClass {
 
 	@Test
 	public void verifySearchProduct() throws IOException {
+		WebDriver driver = getDriver();
 		String searchKey = "t-shirt";
 		logger.info("Test Case search product started....");
 		

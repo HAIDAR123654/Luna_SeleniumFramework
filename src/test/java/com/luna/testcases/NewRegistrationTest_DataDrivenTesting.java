@@ -2,6 +2,7 @@ package com.luna.testcases;
 
 import java.io.IOException;
 
+import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
@@ -14,6 +15,7 @@ public class NewRegistrationTest_DataDrivenTesting extends BaseClass{
 	
 	@Test(dataProvider = "LoginDataProvider")
 	public void verifyLogin(String userEmail, String userPass) throws IOException, InterruptedException {
+		WebDriver driver = getDriver();
 		IndexPage indexPage = new IndexPage(driver);
 		LoginPage loginPage = indexPage.ClickOnSignIn(driver);
 		logger.info("Clicked On signIn button");

@@ -21,51 +21,57 @@ public class BaseClass {
 
 	ReadConfig readConfig = new ReadConfig();
 
-	String url = readConfig.getBaseUrl();
-	String browser = readConfig.getBrowser();
-
-	public String emailAddress = readConfig.getEmail() ;
+	public String emailAddress = readConfig.getEmail();
 	public String password = readConfig.getPassword();
-	
-	public static WebDriver driver;
 	public Logger logger;
 
-	@BeforeClass
+	protected static ThreadLocal<WebDriver> threadDriver = new ThreadLocal<>();
+
+//	@BeforeClass
+	@BeforeMethod
 	public void setup() {
+		String url = readConfig.getBaseUrl();
+		String browser = readConfig.getBrowser();
+
 		switch (browser.toLowerCase()) {
 		case "chrome":
 			WebDriverManager.chromedriver().setup();
-			driver = new ChromeDriver();
+			threadDriver.set(new ChromeDriver());
 			break;
 		case "edge":
 			WebDriverManager.edgedriver().setup();
-			driver = new EdgeDriver();
+			threadDriver.set(new EdgeDriver());
 			break;
 
 		case "firefox":
 			WebDriverManager.firefoxdriver().setup();
-			driver = new FirefoxDriver();
+			threadDriver.set(new FirefoxDriver());
 			break;
 		default:
-			driver = null;
+			threadDriver.set(new ChromeDriver());
 			break;
 		}
-
+		WebDriver driver = getDriver();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		logger = LogManager.getLogger("SeleniumFramework");
 		driver.get(url);
 		logger.info("url opend");
 		driver.manage().window().maximize();
 		logger.info("window maximized");
+
 	}
 
-	@AfterClass
+	public WebDriver getDriver() {
+		return threadDriver.get();
+
+	}
+
+//	@AfterClass
+	@AfterMethod
 	public void tearDown() {
-		driver.close();
-		driver.quit();
+		getDriver().quit();
 	}
 
-	
 	public void captureScreenShot(WebDriver driver, String testName) throws IOException {
 		// step1: convert webdriver object to TakesScreenshot interface
 		TakesScreenshot screenshot = ((TakesScreenshot) driver);

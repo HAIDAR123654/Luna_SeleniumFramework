@@ -3,6 +3,7 @@ package com.luna.testcases;
 import java.io.IOException;
 
 import org.junit.Assert;
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.Select;
 import org.testng.annotations.Test;
 
@@ -19,6 +20,7 @@ public class OrderProductTest extends BaseClass {
 
 	@Test(enabled = false)
 	public void verifyOrderProduct() throws IOException, InterruptedException {
+		WebDriver driver = getDriver();
 		String searchKey = "t-shirt";
 		logger.info("Test Case search product started....");
 
@@ -101,6 +103,7 @@ public class OrderProductTest extends BaseClass {
 	
 	@Test
 	public void verifyAddToWishList() throws IOException, InterruptedException {
+		WebDriver driver = getDriver();
 		String searchKey = "t-shirt";
 		logger.info("Test Case verifyAddToWishList started....");
 

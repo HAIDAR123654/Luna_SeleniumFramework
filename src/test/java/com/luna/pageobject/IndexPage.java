@@ -14,7 +14,7 @@ public class IndexPage {
 		PageFactory.initElements(rdriver, this);
 	}
     
-	@FindBy(linkText = "Sign In")
+	@FindBy(xpath = "(//a[contains(text(),'Sign In')])[1]")
 	WebElement signIn;
 	
 	@FindBy(id = "search")
