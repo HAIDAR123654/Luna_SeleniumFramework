@@ -13,7 +13,7 @@ import com.luna.pageobject.UserHomePage;
 
 public class NewRegistrationTest extends BaseClass{
 	
-	@Test(enabled = false)
+	@Test
 	public void verifyRegistration() throws InterruptedException {
 		WebDriver driver = getDriver();
 		IndexPage indexPage = new IndexPage(driver);
